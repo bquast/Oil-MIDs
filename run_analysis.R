@@ -29,3 +29,6 @@ lookupMIDIP <- '4345'
 # the lookup function
 midip[which(midip$DispNum3 == lookupMIDIP),]
 
+# save
+save(midi, file = 'midi.2002.2010.RData')
+save(midip, file = 'midip.2002.2010.RData')

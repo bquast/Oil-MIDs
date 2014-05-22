@@ -1,2 +1,2 @@
 # export
-write.table(midi, file = 'midi-2002-2010.csv')
+write.table(midi, file = 'midi-2002-2010.csv', sep=',')
